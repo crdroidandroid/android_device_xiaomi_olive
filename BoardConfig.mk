@@ -10,11 +10,11 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/olive
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifests/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olives
-TARGET_RECOVERY_DEVICE_MODULES := libinit_olives
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olive
+TARGET_RECOVERY_DEVICE_MODULES := libinit_olive
 
 # Kernel
 TARGET_KERNEL_CONFIG := olive-perf_defconfig

@@ -18,11 +18,9 @@ $(call inherit-product, device/xiaomi/olive/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olive
 PRODUCT_NAME := lineage_olive
-BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
 
 # Some build flags
 TARGET_BOOT_ANIMATION_RES := 720
